@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body id="body">
+  
+    <div id="giris">
+        <h2 class="girisyazisi">by Mehmet Koç</h2>
+        <button class="butt" onclick="take()">Take the quiz</button>
+    </div>
+
+    <div class="quiz-container inactive">
+        <form id="quiz-form">
+                     
+          
+            <div class="question" id="question">
+                 
+            </div>
+     
+            <div class="answers">
+                <div>
+                    <input type="radio" id="answer1" name="answer" value="Universe1">
+                    <label id="label1" for="answer1"></label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="answer2" name="answer" value="Universe1">
+                    <label id="label2" for="answer2"></label>
+                </div>
+                <div>
+                    <input type="radio" id="answer3" name="answer" value="Universe1">
+                    <label id="label3" for="answer3"></label>
+                </div>
+                <div>
+                    <input type="radio" id="answer4" name="answer" value="Universe1">
+                    <label id="label4" for="answer4"></label>
+                </div>
+            </div>
+        
+
+            <button type="button" onclick=checkAnswer() class="butt">Next</button>
+        </form>
+
+    
+        <div class="correct-answer inactive">
+            <p>The correct answer is Canberra.</p>
+        </div>
+
+    </div>
+
+    
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
