@@ -19,7 +19,7 @@ function checkAnswer() {
             break;
         }
     }
-    // compare the selected answer to the correct answer
+    
     if (selectedAnswer === sorular[hangisoru].cevap) {
         correct++;
     }
