@@ -1,6 +1,6 @@
 # TypeScript-Star-Wars-Quiz
 
-TypeScript, JavaScript based Star Wars Quiz website is a website.
+TypeScript, JavaScript based Star Wars Quiz website.
 
 When I developed this project, it was not to create a big project, but to use my knowledge while learning TypeScript to create a product.
 In this way, rather than a complex project, I both reinforced my JavaScript knowledge and put the theoretical knowledge I gained in TypeScript into practice.
